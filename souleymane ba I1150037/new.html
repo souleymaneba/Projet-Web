@@ -1,0 +1,93 @@
+<html>
+	<head><title>Gestiondes formulaires</title> 
+	
+	<script language="javascript">
+	  function recopie(fiche)
+	  {
+		fiche.rmat.value=fiche.mat.value;
+		fiche.rnom.value=fiche.nom.value;
+		fiche.rprenom.value=fiche.prenom.value;
+		fiche.rADRESSE.value=fiche.ADRESSE.value;
+		
+	  }
+	</script>
+	
+	</head>
+	<body bgcolor="black" text="white">
+		<FORM name="fiche">
+		<center>
+		<legend>FICHE ETUDIANT</legend>
+				<TABLE BORDER=2 bgcolor="red">
+					<TR align="center">
+						<TD>MATRICULE</TD>
+						<td><input name="mat"></td>
+					</tr>
+					<TR align="center">
+						<TD>NOM</TD>
+						<td><input name="nom"></td>
+					</tr>
+					<TR align="center">
+						<TD>PRENOM</TD>
+						<td><input name="prenom"></td>
+					</tr>
+					<TR align="center">
+						<TD>ADRESSE</TD>
+						<td><textarea name="ADRESSE"></textarea></td>
+					</tr
+					
+					<tr align="center"><td>Sexe</td>
+					<td><input type="radio" name="sexe" value="M">Masculin
+					</br><input type="radio" name="sexe" value="F">Feminin
+					</td></tr>
+					<tr align="center"><td>Loisirs</td>
+					<td><input type="checkbox" name="sport">SPORT</br>
+					<td><input type="checkbox" name="internet">Internet</br>
+					<td><input type="checkbox" name="manger">Manger</br>
+					<td><input type="checkbox" name="lecture">Lecture</br>
+					</td></tr>
+					<tr align="center"><td>Nationalite</td>
+					<td><select name="nationalite">
+					<option value="sn">Senegal</option>
+					<option value="gb">Gambie</option>
+					<option value="mt">Mauritanie</option>
+					<option value="gu">Guinee</option>
+					<option value="gab">Gabon</option>
+					</select></td></tr>
+					<tr align="center"><td>Date Naissance</td>
+					<td><input type="date" name="datenaiss"></td></tr>
+										<tr align="center"><td>Date Naissance</td>
+					<td><input type="date" name="datenaiss"></td></tr>
+					<TR align="center">
+						<TD>Ajouter votre photo</TD>
+						<td><input type="file" name="photo" ></td>
+					</tr>
+					<TR align="center">
+						<TD>MATRICULE</TD>
+						<td><input name="rmat"></td>
+					</tr>
+					<TR align="center">
+						<TD>NOM</TD>
+						<td><input name="rnom"></td>
+					</tr>
+					<TR align="center">
+						<TD>PRENOM</TD>
+						<td><input name="rprenom"></td>
+					</tr>
+					<TR align="center">
+						<TD>ADRESSE</TD>
+						<td><textarea name="rADRESSE"></textarea></td>
+					</tr
+					<TR align="center">
+						<td><input type="button" name="recoier" value="Recopier" onClick="recopie(fiche)"></td>
+						<td><input type="reset" name="annuler" value="Annuler"></td>
+					</tr>
+					
+					
+					
+				</TABLE>
+			</center>
+				</FORM>
+	</body>
+</html>
+				
+				

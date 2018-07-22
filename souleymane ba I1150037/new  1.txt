@@ -1,0 +1,26 @@
+<html>
+	<head><title></title</head>
+	<body>
+		<form>
+			<table>
+				<tr>
+					<td>Matricule</td>
+				</tr>
+				<tr>
+					<td>NOM</td>
+				</tr>
+				<tr>
+					<td>PRENOM</td>
+				</tr>
+				<tr>
+					<td>ADRESS</td>
+				</tr>
+				<tr>
+					<td>Matricule</td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>
+				
+				
